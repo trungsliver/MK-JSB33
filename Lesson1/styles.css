@@ -1,0 +1,30 @@
+body{
+    /* Đổi màu nền */
+    background-color: #e9f7f6;
+}
+
+h1{
+    /* Đổi màu chữ */
+    color: #a31717;
+}
+
+p{
+    /* Chỉnh font chữ */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* Chỉnh cỡ chữ */
+    font-size: 21px;
+    /* Chỉnh in đậm */
+    font-weight: bold;
+    /* Chỉnh kiểu chữ: in nghiêm / gạch chân */
+    font-style: italic;
+    text-decoration: underline;
+}
+
+img{
+    /* Chỉnh kích thước ảnh */
+    width: 300px;
+    /* Viền: kích thước - kiểu - màu */
+    border: 5px solid black;
+    /* Chỉnh độ cong viền */
+    border-radius: 150px;
+}
