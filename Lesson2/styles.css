@@ -1,0 +1,64 @@
+/* Định dạng chung cho trang web */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Thanh điều hướng */
+nav{
+    background-color: #333;
+}
+
+/* Chỉ CSS cho thẻ ul nằm bên trong thẻ nav */
+nav ul{
+    /* Kiểu hiện danh sách */
+    list-style: none;
+    /* Kiểu sắp xếp */
+    display: flex;
+}
+
+nav ul li a{
+    /* HIển thị dạng khối */
+    display: block;
+    color: white;
+    padding: 15px 20px;
+    /* Bỏ hiệu ứng (gạch chân) */
+    text-decoration: none;
+}
+
+/* Khi di chuột vào */
+nav ul li a:hover{
+    background-color: #575757;
+}
+
+/* CSS cho class */
+.a {
+    display: inline;
+    background-color: aquamarine;
+    width: 100px;
+    height: 100px;
+}
+
+.b {
+    display: block;
+    background-color: aquamarine;
+    width: 100px;
+    height: 100px;
+}
+
+.c {
+    display: inline-block;
+    background-color: aquamarine;
+    width: 100px;
+    height: 100px;
+}
+
+/* CSS cho id */
+#check{
+    background-color: lightcoral;
+}
+
+#check2{
+    background-color: lightcoral;
+}
