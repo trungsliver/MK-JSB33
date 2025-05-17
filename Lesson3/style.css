@@ -1,0 +1,45 @@
+img{
+    height: 200px;
+}
+
+/* Box model */
+.box{
+    background-color: bisque;
+    width: 250px;
+    /* Viền: kích thước - kiểu - màu */
+    border: 5px solid black;
+    /* Padding */
+    padding: 20px;
+    /* Margin */
+    margin: 10px;
+}
+
+/* Box sizing */
+.container{
+    display: flex;
+    gap: 30px;
+}
+
+.box1{
+    width: 150px;
+    background-color: lightblue;
+    /* Viền: kích thước - kiểu - màu */
+    border: 5px solid black;
+    /* Padding */
+    padding: 20px;
+    /* Box-sizing */
+    box-sizing: content-box;
+} 
+/* => box1 có tổng chiều ngang là 200px */
+
+.box2{
+    width: 150px;
+    background-color: lightblue;
+    /* Viền: kích thước - kiểu - màu */
+    border: 5px solid black;
+    /* Padding */
+    padding: 20px;
+    /* Box-sizing */
+    box-sizing: border-box;
+}
+/* => box2 có tổng chiều ngang là 150px */
