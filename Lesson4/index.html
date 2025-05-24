@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 4</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Đây là internal CSS */
+        #p1{
+            color: blue;
+        }
+
+        h3{
+            background-color: blue;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <!-- CSS Cascading -->
+    <h1>CSS Cascading</h1>
+    <p>Nguồn gốc: inline CSS, internal CSS, external CSS</p>
+        <!-- Inline CSS -->
+    <p style="color: red;">Đây là inline CSS</p>
+    <p id="p1">Đây là internal CSS</p>
+    <p id="p2">Đây là external CSS</p>
+    <h3 style="background-color: red;">Độ ưu tiên: inline - internal - external</h3>
+    <p id="p3_id" class="p3_class">Độ ưu tiên: inline - ID - class - tag</p>
+    <p>1 số thuộc tính được kế thừa tự động</p>
+    <div class="kethua">
+        <p>Thẻ p này nằm trong div</p>
+    </div>
+
+    <!-- CSS Positioning -->
+    <div class="position1">
+        <p>static (mặc định): không thể thay đổi bằng top, left,... </p>
+        <p class="child">relative: di chuyển so với vị trí gốc</p>
+        <p class="child2">absolute: di chuyển theo phần tử tổ tiên gần nhất</p>
+        <p class="child3">fixed: cố định trên cửa sổ trình duyệt</p>
+        <p class="child3" id="z">fixed: cố định trên cửa sổ trình duyệt</p>
+        <p>sticky: đứng yên 1 chỗ khi cuộn đến vị trí nhất định</p>
+    </div>
+
+    <h3>Các thuộc tính để điểu chỉnh vị trí</h3>
+    <p>top, right, bottom, left</p>
+    <p>z-index: lớp hiển thị (cao hơn đè thấp hơn)</p>
+
+</body>
+</html>

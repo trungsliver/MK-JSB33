@@ -1,0 +1,66 @@
+#p2{
+    color: green;
+}
+
+h3{
+    background-color: green;
+}
+
+/* ID */
+#p3_id{
+    color: purple;
+}
+
+/* Class */
+.p3_class{
+    color: yellow;
+}
+
+/* Tag */
+p{
+    color: black;
+}
+
+/* Kế thừa */
+div p{
+    color: pink;
+}
+
+/* CSS Positioning */
+.position1{
+    position: relative;
+    background-color: bisque;
+}
+
+.child{
+    background-color:aqua;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    left: 50px
+}
+
+.child2{
+    background-color:tomato;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 50px
+}
+
+.child3{
+    background-color:chartreuse;
+    width: 200px;
+    height: 200px;
+    position: fixed;
+    top: 10px;
+    left: 50px;
+    z-index: 0;
+}
+
+#z{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    z-index: 100;
+}
