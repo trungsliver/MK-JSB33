@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Cờ Denmark</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    
+    body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: white;
+    }
+   
+    .wrapper {
+      width: 800px;
+      height: 500px;
+      position: relative;
+    }
+
+    .row {
+      display: flex;
+      height: 50%;
+      gap: 30px; /* Khoảng trắng ngang */
+      margin-bottom: 30px; /* Khoảng trắng dọc giữa 2 hàng */
+    }
+
+    .row:last-child {
+      margin-bottom: 0;
+    }
+
+    .box-left {
+      width: 30%;
+      background-color: #d32f2f;
+    }
+
+    .box-right {
+      width: 70%;
+      background-color: #d32f2f;
+    }
+
+    .box-left,
+    .box-right {
+      height: 100%;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="wrapper">
+    <div class="row">
+      <div class="box-left"></div>
+      <div class="box-right"></div>
+    </div>
+    <div class="row">
+      <div class="box-left"></div>
+      <div class="box-right"></div>
+    </div>
+  </div>
+
+</body>
+</html>
