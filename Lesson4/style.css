@@ -37,7 +37,8 @@ div p{
     width: 200px;
     height: 200px;
     position: relative;
-    left: 50px
+    /* left: 50px; */
+    top: 10px;
 }
 
 .child2{
@@ -45,6 +46,7 @@ div p{
     width: 200px;
     height: 200px;
     position: absolute;
+    top: 10px;
     left: 50px
 }
 
