@@ -1,0 +1,26 @@
+.container img{
+    height: 250px;
+}
+
+.container{
+    display: flex;
+    /* Hướng sắp xếp các element */
+    flex-direction: row;
+    /* Sắp xếp theo chiều ngang */
+    justify-content: space-around;
+    /* Sắp xếp theo chiều dọc*/
+    align-items: center;
+    /* Cho phép xuống dòng khi không đủ chỗ */
+    flex-wrap: wrap;
+}
+
+#test{
+    background-color: lightblue;
+}
+
+/* media query */
+@media(max-width: 768px){
+    #test{
+        background-color: lightcoral;
+    }
+}

@@ -1,0 +1,9 @@
+Tạo folder có tên: [Lop]_[HoTen]_CP1
+VD: JSB33_HoangKhanh_CP1
+
+Trắc nghiệm (10 câu): viết trực tiếp trong file index.html
+Tự luận
+
+Hạn nộp: 09h15
+
+Nộp cả folder trong zalo (gửi riêng, không gửi vào group lớp)
